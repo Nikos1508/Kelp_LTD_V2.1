@@ -1,0 +1,163 @@
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24, 230, 103);
+  }
+  
+  #reasons-for-buying-kelp{
+    text-align: left;
+    padding-left: 200px;
+  }
+
+
+  #gif {
+    float: right;
+    height: 100px;
+    margin-top: -185px;
+    margin-right: 75px;
+    height: 200px;
+  }
+  
+
+  .review {
+    border: 2px solid #2e8b57;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  a {
+    color: #0088cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  nav {
+    margin-left: auto;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 1rem;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  /* Main styles */
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .banner {
+    text-align: center;
+  }
+  
+  .content-table {
+    background-color: bisque;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 1.5;
+    min-width: 1000px;
+    min-height: 100px;
+}
+
+.content-table thead tr {
+    background-color: aqua;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-table th
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid aqua;
+    text-align: center;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid aqua;
+}
+
+.content-table {
+    width: 100%;
+  }
+  
+.content-table {
+    height: 70px;
+  }
+  #kelp-fact-container {
+    margin-top: 2rem;
+  }
+  
+  #kelp-fact {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  
+  .button {
+    background-color: #0088cc;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+  }
+  
+  button:hover {
+    background-color: #339900;
+    align-items: center;
+  }
+
+  #kelp-fact-container{
+    align-self: center;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
