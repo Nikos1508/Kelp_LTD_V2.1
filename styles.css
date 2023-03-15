@@ -4,7 +4,7 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color: blueviolet;
+    background-color: rgb(24, 230, 103);
   }
   
   #reasons-for-buying-kelp{
@@ -66,6 +66,12 @@ body {
     text-align: center;
   }
   
+  table, thead, tbody {
+    border:  20px solid;
+    border: #0088cc;
+    width: 100%;
+  }
+
   #kelp-fact-container {
     margin-top: 2rem;
   }
@@ -87,7 +93,7 @@ body {
   }
   
   button:hover {
-    background-color: #006699;
+    background-color: #339900;
     align-items: center;
   }
 
